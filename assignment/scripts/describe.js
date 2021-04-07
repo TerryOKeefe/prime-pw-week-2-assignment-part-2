@@ -26,8 +26,8 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We make a variable called name and set the value as Dane as a string.
-// We check if name is an exact match of the string Mary. If so we console log 'Hi, Mary'
+// We make a variable called name and set it to Dane as a string.
+// We check if name is an exact match of the string 'Mary'. If so we console log 'Hi, Mary'
 // Mary does not match the name variable so it moves to the else statement.
 // Since name and 'Mary' do not match we console log 'How do you do?'.
 
@@ -63,6 +63,7 @@ if(code === 123) {
 
 // I placed a console log of code here to see the value of code.
 // I thought the greater than sign was a less than sign to which 'duper' should have shown in the console as well. :(
+// Spent way too much time looking at that symbol.
 
 if (code > 250) {
   secret = 'duper'
@@ -74,9 +75,9 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 // Variable isStudent set to true as boolean. Variable age set to 34 as a number. Variable zip set to 55407 as a number.
-// Conditional if both isStudent = true and zip is greater than 8000 then we console log 'You're a student on the West Coast!'.
+// Conditional if both isStudent is true and zip is greater than 8000 then we console log 'You're a student on the West Coast!'.
 // Since zip is less than 80000 it does not console log.
-// Code second conditional if isStudent === false or age is less than 30. If one or the other is true then console log 'What are your hobbies?'
+// Code second conditional if isStudent is false or age is less than 30. If one or the other is true then console log 'What are your hobbies?'
 // Neither is true. Third conditional if isStudent === true. This is true so we console log 'Welcome to Prime!'.
 // If none of the above conditionals are true then we console log 'How about the weather?'. This doesn't run as the third conditional is true.
 
@@ -166,6 +167,9 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+
+// FIX - else-- its not in here but I would add to console log 'safe!'
+// Add else with console.log('safe!') - let user know they are in target safe zone for food.
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
