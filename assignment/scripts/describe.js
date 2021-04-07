@@ -26,7 +26,7 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We make a variable called name and set it to Dane as a string.
+// We make a variable called name and set it to 'Dane' as a string.
 // We check if name is an exact match of the string 'Mary'. If so we console log 'Hi, Mary'
 // Mary does not match the name variable so it moves to the else statement.
 // Since name and 'Mary' do not match we console log 'How do you do?'.
@@ -160,7 +160,7 @@ if (mix === true) {
 /*
 let temp = 40;
 
-// FIX - time-- time is a constant resulting conditional to always be true.
+// FIX - time-- time is a constant resulting in conditional to always be true.
 // Should be let time = 4.
 const time = 4;
 
